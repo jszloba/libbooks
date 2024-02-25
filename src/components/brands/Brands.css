@@ -1,0 +1,52 @@
+.brands {
+    margin: 12px 5px;
+    padding-top: 12px;
+    border-top: 1px dotted #c7c7c7;
+}
+
+.brands-container {
+    margin-bottom: 18px;
+    color: #b0b0b0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.brands-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+    list-style-type: none;
+}
+
+.brands-list-item {
+    width: 12.5%;
+    padding: 0 0 20px;
+}
+
+.brands-list-item a {
+    display: block;
+    width: 98px;
+    height: 31px;
+    background: url(https://www.litres.ru/_next/static/media/partners.7525e1ff.svg) no-repeat;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter .3s ease 0s;
+}
+
+.brands-list-item a:hover {
+    filter: grayscale(0%);
+}
+
+.sber-spasibo {
+    background-position: 0 -120px !important;
+}
+
+.ozon {
+    background-position: 1px -31px !important;
+}
+
+.magnit {
+    background-position: 0 -603px !important;
+    font-size: 36px;
+}

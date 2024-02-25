@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+}
+
+:root {
+    --color-primary: #7a6930;
+    --color-black: #111111;
+    --color-black-Ex: #222222;
+    --color-dark: #7A7A7A;
+    --color-dark-Ex: #E5E3DA;
+    --color-light: #EFEEE8;
+
+    --color-bg-1: #F3F2EC;
+    --color-bg-2: #EDEBE4;
+
+    --transition: .4s ease;
+    --font-family-prata: 'Prata', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    color: var(--color-dark);
+
+}
+
+body {
+    background-color: var(--color-bg-1);
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-family-prata);
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 73px;
+    /*line-height: 145px;*/
+    color: var(--color-black-Ex);
+}
+
+h2 {
+    font-size: 48px;
+    line-height: initial;
+    color: var(--color-black);
+}
+
+.h3-ex {
+    font-size: 26px !important;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: initial;
+    color: var(--color-black);
+}
+
+h4 {
+    font-size: 22px;
+    line-height: initial;
+    color: var(--color-black);
+}
+
+h4 {
+    font-size: 17px;
+    color: var(--color-dark);
+}
+
+h5 span {
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+p {
+    font-size: 16px;
+    line-height: 220%;
+    letter-spacing: 4px;
+}
+
+small {
+    font-size: 13px;
+    letter-spacing: 16px;
+    color: var(--color-dark);
+}
+
+.btn {
+    width: fit-content;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    position: relative;
+    transition: var(--transition);
+
+}
+
+.btn:after {
+    content: '';
+    width: 0;
+    height: 100%;
+    background: var(--color-black-Ex);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: var(--transition);
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+.btn:hover {
+    color: var(--color-bg-1);
+}
+
+.btn-border {
+    border: 1px solid var(--color-dark);
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    padding: 180px 0 !important;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1420px;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 60px !important;
+    }
+
+    h2 {
+        font-size: 38px !important;
+    }
+
+    h3 {
+        font-size: 26px !important;
+    }
+
+    h5 span {
+        font-size: 16px !important;
+    }
+
+    section {
+        padding: 100px 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 34px !important;
+    }
+
+    h3 {
+        font-size: 24px !important;
+    }
+    h4 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 70px 0 !important;
+    }
+
+}

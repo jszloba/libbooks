@@ -44,6 +44,11 @@ export const Header = () => {
                         prevEl: '.button-prev-slide',
                         nextEl: '.button-next-slide',
                     }}
+                    loop={true}
+                    autoplay={{
+                        delay: 500,
+                        disableOnInteraction: false
+                    }}
 
                 >
                     {
@@ -54,9 +59,9 @@ export const Header = () => {
                                 <SwiperSlide key={index}>
                                     <div className="header-wrapper container">
                                         <div className="header-left">
-                                            <h1>{title}</h1>
+                                            <h1 className="header-title">{title}</h1>
                                             <p className="header-desc" dangerouslySetInnerHTML={{ __html: truncatedDescription}}></p>
-                                            <Link className="btn btn-border" to={btnLink}>
+                                            <Link className="btn btn-border padding-btn" to={btnLink}>
                                                 Learn More
                                             </Link>
                                         </div>

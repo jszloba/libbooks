@@ -2,8 +2,11 @@ import './Brands.css'
 const partners = [
     { href: "/magnit", id: "magnit" },
     { href: "/ozon", id: "ozon" },
-    { href: "/ozon", id: "sber-spasibo"},
-    // Добавьте остальных партнеров сюда...
+    { href: "/sber-spasibo", id: "sber-spasibo"},
+    { href: "/mir", id: "mir" },
+    { href: "/perekrestok", id: "perekrestok" },
+    { href: "/beeline", id: "beeline" },
+    { href: "/rostelecom", id: "rostelecom" },
 ];
 export const Brands = () => {
 

@@ -23,7 +23,7 @@ header {
 
 .header-wrapper {
     display: grid;
-    grid-template-columns: auto 395px;
+    grid-template-columns: auto 320px;
     align-items: center;
     gap: 160px;
     margin: 0 auto;
@@ -36,6 +36,10 @@ header {
     margin-bottom: 65px;
 }
 
+.header-left .padding-btn {
+    margin-left: 40px;
+}
+
 .slider-button {
     display: flex;
     align-items: center;
@@ -43,7 +47,7 @@ header {
     margin: auto;
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: -100px;
     width: 100%;
 }
 
@@ -146,6 +150,9 @@ header {
     }
 }
 
+.header-title {
+    padding-left: 40px;
+}
 
 
 .book {
@@ -249,6 +256,7 @@ header {
 .header-desc {
     color: #00000080;
     letter-spacing: 1px;
+    padding-left: 40px;
 }
 
 .shelf-shadows {

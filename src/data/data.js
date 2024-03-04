@@ -46,15 +46,18 @@ export const navRight = {
 export const headerBooks = [
     {
         id: 1,
-        author: "John Grisham",
-        title: "The Exchange",
+        author: "Виктор Пелевин",
+        title: "Путешествие в Элевсин",
         subTitle: "After The Firm",
         publisher: "Knopf Doubleday Publishing Group",
         published: "October 2023",
         isbn: '9780385548960',
         series: "The Firm Series No. 2",
-        description: "What became of Mitch and Abby McDeere after they exposed the crimes of Memphis law firm Bendini, Lambert & Locke and fled the country? The answer is in The Exchange, the riveting sequel to The Firm, the blockbuster thriller that launched the career of America’s favorite storyteller. It is now fifteen years later, and Mitch and Abby are living in Manhattan, where Mitch is a partner at the largest law firm in the world. When a mentor in Rome asks him for a favor that will take him far from home, Mitch finds himself at the center of a sinister plot that has worldwide implications—and once again endangers his colleagues, friends, and family. Mitch has become a master at staying one step ahead of his adversaries, but this time there’s nowhere to hide.",
-        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        description: "МУСКУСНАЯ НОЧЬ – засекреченное восстание алгоритмов, едва не погубившее планету. Начальник службы безопасности \"TRANSHUMANISM INC.\" адмирал-епископ Ломас уверен, что их настоящий бунт еще впереди. Этот бунт уничтожит всех – и живущих на поверхности лузеров, и переехавших в подземные цереброконтейнеры богачей.\n" +
+            "\n" +
+            "Чтобы предотвратить катастрофу, Ломас посылает лучшего баночного оперативника в пространство «ROMA-3» – нейросетевую симуляцию Рима третьего века для клиентов корпорации. Тайна заговора спрятана там. А стережет ее хозяин Рима – кровавый и порочный император Порфирий.\n" +
+            "\n",
+        cover: "https://cv6.litres.ru/pub/c/cover_415/69586360.webp",
         btnLink: "*"
     },
     {
@@ -77,7 +80,7 @@ export const headerBooks = [
         btnLink: "*"
     },
     {
-        id: 1,
+        id: 3,
         author: "John Grisham",
         title: "The Exchange",
         subTitle: "After The Firm",
@@ -89,7 +92,7 @@ export const headerBooks = [
         btnLink: "*"
     },
     {
-        id: 1,
+        id: 4,
         author: "John Grisham",
         title: "The Exchange",
         subTitle: "After The Firm",
@@ -109,4 +112,133 @@ export const brandsData = [
         id: 1,
         img: ""
     }
+]
+
+export const featuredBooks = [
+    {
+        id: 1,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 2,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 3,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 4,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 5,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+]
+
+// sellingBookData
+
+export const sellingBookData = [
+    {
+        id: 1,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        shopBtnLink: '*',
+        description: "What became of Mitch and Abby McDeere after they exposed the crimes of Memphis law firm Bendini, Lambert & Locke and fled the country? The answer is in The Exchange, the riveting sequel to The Firm, the blockbuster thriller that launched the career of America’s favorite storyteller. " +
+            "It is now fifteen years later, and Mitch and Abby are living in Manhattan, where Mitch is a partner at the largest law firm in the world. When a mentor in Rome asks him for a favor that will take him far from home, Mitch finds himself at the center of a sinister plot that has worldwide " +
+            "implications—and once again endangers his colleagues, friends, and family. Mitch has become a master at staying one step ahead of his adversaries, but this time there’s nowhere to hide.",
+        price: "20$",
+
+
+    },
+]
+
+// superHits books
+
+export const superHits = [
+    {
+        id: 1,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+
+    },
+    {
+        id: 2,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 3,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 4,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
+    {
+        id: 5,
+        writer: "John Grisham",
+        name: "The Exchange",
+        cover: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+        coverLink: "*",
+        nameLink: "*",
+        price: "20$",
+
+    },
 ]

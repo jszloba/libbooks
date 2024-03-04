@@ -23,8 +23,6 @@ export const Header = () => {
             while (truncated.length > 0 && !consonants.includes(truncated[truncated.length - 1])) {
                 truncated = truncated.substring(0, truncated.length - 1);
             }
-
-            // Add the ellipsis
             return truncated + '...';
         }
 
